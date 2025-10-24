@@ -96,6 +96,9 @@ export default function Resources() {
               <Link href="/signup" className="ml-4 bg-primary-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-700">
                 Sign up
               </Link>
+              <Link href="/dashboard" className="ml-4 text-gray-500 hover:text-gray-700 px-3 py-2 text-sm font-medium">
+                Dashboard
+              </Link>
             </div>
           </div>
         </div>
