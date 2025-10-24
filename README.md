@@ -2,12 +2,23 @@
 
 InkBridge is a modern web application designed to empower young authors to publish their creative works and connect with readers worldwide.
 
+## Pages
+
+- **Home Page** (`/`): Landing page with platform overview and call-to-action
+- **Publish Page** (`/publish`): Tools and forms for authors to publish their books
+- **Browse Page** (`/browse`): Book discovery interface with search and filtering
+- **Author Dashboard** (`/dashboard`): Author's control panel to manage books and track performance
+- **Login Page** (`/login`): User authentication
+- **Signup Page** (`/signup`): New user registration
+- **Book Edit Page** (`/book/[id]/edit`): Edit individual book details
+
 ## Features
 
 - **Easy Publishing**: Simple tools to publish your work in minutes
 - **Global Reach**: Distribute your books to readers around the world
-- **Community Support**: Connect with other young authors and get feedback
+- **Community Support**: Connect with other young authors, get feedback, and grow together
 - **Reader Discovery**: Browse and discover amazing stories from young talent
+- **Author Dashboard**: Track your book sales, revenue, and performance metrics
 - **Author Resources**: Access tools and guides to improve your writing
 
 ## Tech Stack
@@ -84,14 +95,6 @@ inkbridge/
 ├── tailwind.config.js    # Tailwind CSS configuration
 └── package.json          # Project dependencies
 ```
-
-## Pages
-
-- **Home Page** (`/`): Landing page with platform overview and call-to-action
-- **Publish Page** (`/publish`): Tools and forms for authors to publish their books
-- **Browse Page** (`/browse`): Book discovery interface with search and filtering
-- **Login Page** (`/login`): User authentication
-- **Signup Page** (`/signup`): New user registration
 
 ## Contributing
 
